@@ -78,7 +78,7 @@ try:
     excel_filename = 'scraped_data.xlsx'
     workbook = openpyxl.Workbook()
     sheet = workbook.active
-    sheet.append(['Title', 'Price', 'City'])  # Write the header
+    sheet.append(['Title', 'Price', 'City'])  # Write the header.
 
     # Write data to the Excel file
     for title, price, city in zip(titles, prices, cities):
