@@ -9,8 +9,7 @@ import time
 import openpyxl
 import threading
 
-url = 'https://haraj.com.sa/search/%D8%BA%D8%B1%D9%81%D8%A9%20%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1'  # Replace this with the URL of the website you want to scrape
-
+url = 'https://haraj.com.sa/search/%D8%BA%D8%B1%D9%81%D8%A9%20%D9%84%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1'  # Replace this with the URL you have when you search for something.
 # Set up the Chrome WebDriver
 driver = webdriver.Chrome()
 
